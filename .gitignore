@@ -1,0 +1,7 @@
+/bin/*
+!bin/create-import
+/build/*
+!build/.gitignore
+/data/*
+!data/template.xlsx
+/vendor/
