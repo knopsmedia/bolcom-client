@@ -2,7 +2,7 @@
 
 namespace Knops\BolcomClient\Model;
 
-final class DeliveryTime
+final class DeliveryPromise
 {
     public const TIME_24HOURS_CUTOFF_12 = '24uurs-12';
     public const TIME_24HOURS_CUTOFF_13 = '24uurs-13';
@@ -16,12 +16,12 @@ final class DeliveryTime
     public const TIME_24HOURS_CUTOFF_21 = '24uurs-21';
     public const TIME_24HOURS_CUTOFF_22 = '24uurs-22';
     public const TIME_24HOURS_CUTOFF_23 = '24uurs-23';
-    public const TIME_1_2DAYS = '1-2 werkdagen';
-    public const TIME_2_3DAYS = '2-3 werkdagen';
-    public const TIME_3_5DAYS = '3-5 werkdagen';
-    public const TIME_4_8DAYS = '4-8 werkdagen';
-    public const TIME_1_8DAYS = '1-8 werkdagen';
-    public const TIME_DELIVERY_PROMISE = 'MijnLeverbeloftee';
+    public const TIME_1_2DAYS = '1-2d';
+    public const TIME_2_3DAYS = '2-3d';
+    public const TIME_3_5DAYS = '3-5d';
+    public const TIME_4_8DAYS = '4-8d';
+    public const TIME_1_8DAYS = '1-8d';
+    public const TIME_DELIVERY_PROMISE = 'MijnLeverbelofte';
 
     private function __construct()
     {

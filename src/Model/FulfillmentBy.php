@@ -4,8 +4,8 @@ namespace Knops\BolcomClient\Model;
 
 final class FulfillmentBy
 {
-    public const BOL = 'Lvb';
-    public const MERCHANT = 'verkoper';
+    public const FBR = 'FBR';
+    public const FBB = 'FBB';
 
     private function __construct()
     {

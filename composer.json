@@ -10,8 +10,9 @@
     },
     "require": {
         "php": "^8.0",
-        "phpoffice/phpspreadsheet": "^1.18",
-        "webmozart/assert": "^1.10"
+        "psr/http-client": "^1.0",
+        "psr/http-factory": "^1.0",
+        "psr/http-message": "^1.0"
     },
     "config": {
         "bin-dir": "bin",
